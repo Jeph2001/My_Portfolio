@@ -19,6 +19,7 @@ class ProviderController extends Controller
         return view('dashboard');
     }
 
+    
     public function callback($provider){
         $socialiteUser = Socialite::driver($provider)->user();
     

@@ -19,5 +19,5 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
  
 Route::get('/auth/{provider}/redirect', [ProviderController::class, 'redirect']);
 Route::get('/auth/{provider}/callback', [ProviderController::class, 'callback']);
-Route::get('/dashboard', [ProviderController::class, 'dashboard']);
+Route::get('/dashboard', [ProviderController::class, 'dashboard'])->middleware('auth');
 
