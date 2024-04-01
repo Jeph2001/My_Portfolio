@@ -235,18 +235,17 @@ h6 {
   left: 0;
 }
 
-
-/* Hero Section */
-
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../assets/img/jeph3.jpg") top center;
-  background-size: 68%;
+  background: url("..assets/img/jeph3.jpg") top center;
+  background-size:68%;
   backface-visibility: hidden;
   opacity: 150%;
 }
-
 
 #hero:before {
   content: "";
