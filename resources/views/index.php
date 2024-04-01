@@ -663,7 +663,7 @@
       </div>
       <div class="credits">
         
-        Designed by<b> Joseph.M</b>
+        Designed by<b> Joseph Maniragaba</b>
        
       </div>
     </div>
