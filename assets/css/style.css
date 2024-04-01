@@ -241,7 +241,8 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../assets/img/mypic.jpg") top center;
+  background-color: #050d18;
+  /* background: url("../assets/img/mypic.jpg") top center; */
   background-size:68%;
   backface-visibility: hidden;
   opacity: 150%;
